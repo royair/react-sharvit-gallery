@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-sharvit-gallery/precache-manifest.2437610890704ae15ec3e1cc40f266ac.js"
+  "/react-sharvit-gallery/precache-manifest.fcf506970672f8e6ce32a1cf279c57fc.js"
 );
 
 workbox.clientsClaim();
