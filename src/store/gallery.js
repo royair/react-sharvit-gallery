@@ -30,7 +30,16 @@ class Gallery {
   get photos() {
     if (!this.searchTerm) return this._photos;
 
-    return this._photos.filter((photo) => photo.author.toLowerCase().includes(this.searchTerm));
+    return this._photos.filter((photo) => {
+      const searchTerm          = this._searchTerm;
+      const authorName          = photo.author;
+      const authorNameLowered   = authorName.toLowerCase();
+      const authorNameSeparated = authorNameLowered.split(' ');
+
+      return authorNameSeparated.reduce((flag, cur) => {
+        return flag || cur.startsWith(searchTerm);
+      }, false)
+    });
   }
 }
 
