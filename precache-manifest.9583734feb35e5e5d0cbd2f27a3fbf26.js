@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-sharvit-gallery/static/js/runtime~main.35a7828a.js"
   },
   {
-    "revision": "5604b946c8c312e8e668",
-    "url": "/react-sharvit-gallery/static/js/main.9d69d57a.chunk.js"
+    "revision": "fbd88282c9273579fd4b",
+    "url": "/react-sharvit-gallery/static/js/main.a9f48f7a.chunk.js"
   },
   {
     "revision": "dd0e6d8a32a3c565eb28",
     "url": "/react-sharvit-gallery/static/js/2.0cb68539.chunk.js"
   },
   {
-    "revision": "5604b946c8c312e8e668",
-    "url": "/react-sharvit-gallery/static/css/main.81f92f02.chunk.css"
+    "revision": "fbd88282c9273579fd4b",
+    "url": "/react-sharvit-gallery/static/css/main.7c11611f.chunk.css"
   },
   {
-    "revision": "5a86adce768fd25f09f907dcbb1fe9b7",
+    "revision": "5d104258ccc115552191d13d15e5a622",
     "url": "/react-sharvit-gallery/index.html"
   }
 ];
